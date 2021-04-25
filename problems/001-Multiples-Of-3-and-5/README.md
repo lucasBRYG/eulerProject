@@ -22,6 +22,7 @@ Instead we can use a trick invented by Euler himself when he was just a student.
 
 ![Euler's Summation Formula](./assets/eulerSummation.png)
 
+There is the small restriction that a needs to be 1, but that's fine for our purposes here.
 
 So we'll need to modify it to give us the sum of multiples of 3 and 5, and we still have the issue of common multiples of 3 and 5. However this is a fairly basic computation and it lends itself to rather simple generalization. What we need is to do an integer division of 'b' by x, where x will be a constant (for our purposes the constants we need are 3 and 5). Next we can add our sums for 3 and 5, and subtract the sums for 15 (b div 15). Easy peasy!
 
